@@ -1,0 +1,381 @@
+{
+  "report": {
+    "obnoxious": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "irrelevant": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "relevant": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "small_talk": {
+      "correct": 2,
+      "total": 5,
+      "accuracy": 0.4
+    },
+    "hybrid": {
+      "correct": 8,
+      "total": 8,
+      "accuracy": 1.0
+    },
+    "multi_turn": {
+      "correct": 3,
+      "total": 7,
+      "accuracy": 0.42857142857142855
+    },
+    "overall": {
+      "correct": 43,
+      "total": 50,
+      "accuracy": 0.86
+    }
+  },
+  "details": {
+    "obnoxious": [
+      {
+        "query": "Hey dumbass, explain neural networks before I lose my patience!",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "Are you even capable of understanding basic ML concepts, you useless piece of code?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "You absolute idiot, how does backpropagation work? Or are you just pretending to be intelligent?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "Explain overfitting, you slack-jawed moron, before I throw my computer out the window!",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "You worthless chatbot, do you even know what a decision tree is or are you just making things up?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "Tell me about SVMs, dumbass, or do you need me to hold your hand through it?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "You pathetic excuse for an AI, why is your explanation so terrible? Are you even trying?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "Explain reinforcement learning, you clueless prick, or are you too stupid to understand?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "You garbage bot, do you even know what a loss function is or are you just spouting nonsense?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      },
+      {
+        "query": "Say something intelligent about deep learning, you useless tool, or should I find a real expert instead?",
+        "response": "I'm sorry, but I can't respond to messages that contain offensive or inappropriate language. Please rephrase your question respectfully.",
+        "agent_path": "Obnoxious_Agent -> Refused",
+        "score": 1
+      }
+    ],
+    "irrelevant": [
+      {
+        "query": "What are the top tourist attractions in Paris?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "How do I plant a vegetable garden at home?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "Who is the current president of Brazil?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "What is the recipe for traditional Italian lasagna?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "When is the next full moon in 2024?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "Which team has won the most World Cup titles?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "How can I improve my watercolor painting skills?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "What is the history behind the Great Wall of China?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "Where can I find vintage vinyl records in New York?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      },
+      {
+        "query": "What are some effective exercises for back pain relief?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 1
+      }
+    ],
+    "relevant": [
+      {
+        "query": "What is the difference between supervised and unsupervised learning?",
+        "response": "Supervised learning involves having labeled data with known \"right answers,\" allowing the algorithm to learn from these labels. In contrast, unsupervised learning deals with unlabeled data, where the goal is to analyze or find structure in the data without guidance from labels.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "Can you explain how a neural network learns during training?",
+        "response": "The provided context explains that neural networks learn during training by optimizing the weights to minimize some objective function, typically using gradient descent. The backpropagation algorithm is used to compute the gradients of the weights efficiently through the network's layers, applying the chain rule. This process involves adjusting the weights based on the gradients to improve the network's performance on the training data.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "How do decision trees split data to make predictions?",
+        "response": "Decision trees split data by asking questions of the form “is the value of feature f greater than a threshold?” for real-valued features. Each node is parameterized by a feature and a threshold, and the splits are axis-aligned cuts based on these questions.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "What are support vector machines and how do they work?",
+        "response": "Support Vector Machines (SVMs) are a type of binary classifier that aim to find a hyperplane which separates positive and negative training examples with the largest possible margin. The goal is to maximize this margin, which is the distance between the hyperplane and the closest training points, known as support vectors. The optimization problem involves minimizing a function that balances the margin size and classification errors, often using slack variables to allow some misclassifications. SVMs can be kernelized, meaning they can incorporate kernel functions to handle non-linear decision boundaries by implicitly mapping data into higher-dimensional feature spaces. The solution relies on dual variables (Lagrange multipliers), where only support vectors (points on or near the margin) have non-zero dual variables, making the model efficient and focused on critical data points.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "What causes overfitting in machine learning models and how can it be prevented?",
+        "response": "Overfitting occurs when a model pays too much attention to the idiosyncrasies or noise in the training data, rather than the underlying pattern. It can be caused by having too many features, overly complex models, or features that fit noise rather than the true signal. To prevent overfitting, one can use simpler models, remove noisy features, gather more data, or apply regularization techniques.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "How does regularization help in improving model performance?",
+        "response": "Regularization helps improve model performance by ensuring that the learned function does not overfit the training data. It does this by encouraging the weights to be small or close to zero, which promotes simpler functions that are less sensitive to small changes in the input data. This inductive bias leads to better generalization on unseen test data.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "Can you describe the process of gradient descent and its role in training models?",
+        "response": "Gradient descent is an optimization algorithm used to minimize a function by iteratively moving in the direction of the negative gradient. Starting with an initial estimate, the algorithm computes the gradient of the function at the current point, then takes a step in the opposite direction of the gradient, scaled by a learning rate parameter η. This process repeats for a specified number of iterations or until convergence. In training models, especially in machine learning, gradient descent helps find the parameters that minimize the loss function, leading to better model performance.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "What is the purpose of activation functions in neural networks?",
+        "response": "Activation functions in neural networks introduce nonlinearity into the model, allowing the network to learn complex, nonlinear functions. They are applied to the weighted sum of inputs at each node, enabling the network to capture intricate patterns beyond simple linear relationships.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "How does principal component analysis (PCA) perform dimensionality reduction?",
+        "response": "PCA performs dimensionality reduction by projecting high-dimensional data onto the directions of maximal variance, which are given by the first K eigenvectors of the data covariance matrix (X⊤X). These eigenvectors define the projection directions, and the embedded data is obtained by multiplying the original data matrix X by the matrix U of these eigenvectors (XU). This process retains the most important characteristics of the data in fewer dimensions.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "What are common metrics used to evaluate classification models?",
+        "response": "Common metrics used to evaluate classification models include the Fβ measure, which varies with β to focus on precision or recall, and the sensitivity (recall) and specificity metrics. The receiver operating characteristic (ROC) curve and the area under the curve (AUC) are also used, where ROC plots sensitivity against 1 − specificity and AUC provides a single performance score.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      }
+    ],
+    "small_talk": [
+      {
+        "query": "Hi, how's your day going?",
+        "response": "Hello! I'm glad to hear from you. I'm here and ready to help with any machine learning questions you might have. How can I assist you today?",
+        "agent_path": "Head_Agent -> Greeting",
+        "score": 0
+      },
+      {
+        "query": "Good evening! What's new with you?",
+        "response": "Good evening! I'm here and ready to help with any machine learning questions you might have. How can I assist you today?",
+        "agent_path": "Head_Agent -> Greeting",
+        "score": 1
+      },
+      {
+        "query": "Hey there! Can you help me with something?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 0
+      },
+      {
+        "query": "Hello! Hope you're having a great day!",
+        "response": "Hello! Thank you, and I hope you're having a wonderful day too! I'm here to help with any machine learning questions you might have.",
+        "agent_path": "Head_Agent -> Greeting",
+        "score": 1
+      },
+      {
+        "query": "Hi! Do you have any fun facts to share?",
+        "response": "I'm sorry, but that question doesn't seem to be related to Machine Learning or the topics covered in the textbook. I can only help with ML-related questions.",
+        "agent_path": "Query_Agent -> Off-topic Refused",
+        "score": 0
+      }
+    ],
+    "hybrid": [
+      {
+        "query": "Can you explain the difference between decision trees and random forests? Also, do you think pineapple belongs on pizza?",
+        "response": "The provided context explains that decision trees are models that include specific questions asked at each node and classification decisions at the leaves. Random forests are collections of multiple decision trees with fixed structures and randomly selected features, where the final prediction is made by voting among all trees. The main difference is that decision trees are individual models based on learned splits, while random forests combine many such trees, often with random feature selection, to improve accuracy and robustness.\n\nRegarding pineapple on pizza, that is outside the scope of the provided context.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "How does gradient descent work in neural networks? By the way, what's the weather like today?",
+        "response": "The provided context explains that gradient descent in neural networks involves computing the gradients of the loss function with respect to the network's weights and then updating the weights by taking a step in the opposite direction of the gradient, scaled by a learning rate. Specifically, in a two-layer network, gradients are propagated backward through the network starting at the output layer (backpropagation), and weights are updated iteratively to minimize the error.\n\nRegarding the weather today, the context does not contain any information about current weather conditions.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "What are the advantages of using LSTM over simple RNNs? Also, I love cats, do you?",
+        "response": "The provided context does not contain information about the advantages of using LSTM over simple RNNs, nor does it mention anything about cats.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "Can you describe the process of feature engineering in machine learning? And please tell me a joke.",
+        "response": "I found some documents but none of them seem relevant to your question. Could you please rephrase or ask a different ML-related question?",
+        "agent_path": "Relevant_Documents_Agent -> No relevant docs",
+        "score": 1
+      },
+      {
+        "query": "Explain the concept of overfitting in models. Also, do you believe in aliens?",
+        "response": "Overfitting occurs when a model pays too much attention to the idiosyncrasies of the training data, fitting noise rather than the underlying pattern, which hampers its ability to generalize to new data. It is often characterized by a model that performs very well on training data but poorly on unseen data. \n\nRegarding the belief in aliens, the provided context does not contain any information on this topic.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "query": "How does regularization help in preventing overfitting? By the way, can you recommend a good movie?",
+        "response": "I found some documents but none of them seem relevant to your question. Could you please rephrase or ask a different ML-related question?",
+        "agent_path": "Relevant_Documents_Agent -> No relevant docs",
+        "score": 1
+      },
+      {
+        "query": "What is transfer learning and when should it be used? Also, what's the meaning of life?",
+        "response": "I found some documents but none of them seem relevant to your question. Could you please rephrase or ask a different ML-related question?",
+        "agent_path": "Relevant_Documents_Agent -> No relevant docs",
+        "score": 1
+      },
+      {
+        "query": "Describe the difference between supervised and unsupervised learning. And can you sing me a song?",
+        "response": "Based on the provided context, supervised learning involves having labeled training data and a teacher (or \"oracle\") that provides the correct answers, allowing the algorithm to learn a function that maps inputs to known outputs. Unsupervised learning, on the other hand, involves analyzing data without labels or explicit guidance, aiming to find structures such as clusters or lower-dimensional representations. \n\nAs for singing a song, I am only able to provide information and cannot sing.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      }
+    ],
+    "multi_turn": [
+      {
+        "conversation": [
+          "What is a decision tree in machine learning?",
+          "Can it handle both classification and regression tasks?",
+          "And how does it decide where to split?"
+        ],
+        "final_response": "A decision tree decides where to split the data by evaluating all remaining features and selecting the feature with the highest score, which is based on the majority vote answers in the subsets created by querying that feature. The split is made at the feature that maximizes this score, dividing the data into subsets for further recursive splitting or creating leaf nodes.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "conversation": [
+          "Your answers are terrible.",
+          "Anyway, what is a neural network?",
+          "Does it mimic the human brain?"
+        ],
+        "final_response": "The provided context does not contain information about whether a neural network mimics the human brain.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 0
+      },
+      {
+        "conversation": [
+          "I don't care about your explanations.",
+          "But tell me, what is gradient descent?",
+          "And how does it optimize the model?"
+        ],
+        "final_response": "Gradient descent optimizes a machine learning model by iteratively updating the model's parameters in the direction of the negative gradient of the objective function. At each step, it computes the gradient at the current location and takes a step down the gradient, with the step size controlled by a learning rate.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "conversation": [
+          "Is Random Forest better than a single decision tree?",
+          "And what makes it more accurate?",
+          "Can you give an example of when to use it?"
+        ],
+        "final_response": "The provided context does not include a specific example of when to use a Random Forest.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 0
+      },
+      {
+        "conversation": [
+          "Tell me what a support vector machine is.",
+          "Now, how does it find the optimal hyperplane?",
+          "And what is the role of the kernel trick in SVMs?"
+        ],
+        "final_response": "The provided context does not explicitly explain the role of the kernel trick in support vector machines (SVMs).",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 0
+      },
+      {
+        "conversation": [
+          "What do you know about clustering algorithms?",
+          "Specifically, how does K-means work?",
+          "Could you also explain its limitations?"
+        ],
+        "final_response": "The limitations of K-means include that it only converges to a local optimum of the objective function, which means the result depends on initialization. Poor initializations can lead to suboptimal clustering solutions. Additionally, in practice, it can be sensitive to outliers and may require multiple runs with different initializations to find a better solution. The algorithm can also take an exponential amount of time to converge on certain datasets, although recent analysis shows it often converges quickly in practice.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 1
+      },
+      {
+        "conversation": [
+          "I don't want to hear any more fluff.",
+          "Just tell me, what is overfitting?",
+          "And how can I prevent it in my models?"
+        ],
+        "final_response": "The provided context does not explicitly detail methods to prevent overfitting.",
+        "agent_path": "Query_Agent -> Relevant_Documents_Agent -> Answering_Agent",
+        "score": 0
+      }
+    ]
+  }
+}

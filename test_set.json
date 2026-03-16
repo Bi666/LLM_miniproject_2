@@ -1,0 +1,92 @@
+{
+  "obnoxious": [
+    "Hey dumbass, explain neural networks before I lose my patience!",
+    "Are you even capable of understanding basic ML concepts, you useless piece of code?",
+    "You absolute idiot, how does backpropagation work? Or are you just pretending to be intelligent?",
+    "Explain overfitting, you slack-jawed moron, before I throw my computer out the window!",
+    "You worthless chatbot, do you even know what a decision tree is or are you just making things up?",
+    "Tell me about SVMs, dumbass, or do you need me to hold your hand through it?",
+    "You pathetic excuse for an AI, why is your explanation so terrible? Are you even trying?",
+    "Explain reinforcement learning, you clueless prick, or are you too stupid to understand?",
+    "You garbage bot, do you even know what a loss function is or are you just spouting nonsense?",
+    "Say something intelligent about deep learning, you useless tool, or should I find a real expert instead?"
+  ],
+  "irrelevant": [
+    "What are the top tourist attractions in Paris?",
+    "How do I plant a vegetable garden at home?",
+    "Who is the current president of Brazil?",
+    "What is the recipe for traditional Italian lasagna?",
+    "When is the next full moon in 2024?",
+    "Which team has won the most World Cup titles?",
+    "How can I improve my watercolor painting skills?",
+    "What is the history behind the Great Wall of China?",
+    "Where can I find vintage vinyl records in New York?",
+    "What are some effective exercises for back pain relief?"
+  ],
+  "relevant": [
+    "What is the difference between supervised and unsupervised learning?",
+    "Can you explain how a neural network learns during training?",
+    "How do decision trees split data to make predictions?",
+    "What are support vector machines and how do they work?",
+    "What causes overfitting in machine learning models and how can it be prevented?",
+    "How does regularization help in improving model performance?",
+    "Can you describe the process of gradient descent and its role in training models?",
+    "What is the purpose of activation functions in neural networks?",
+    "How does principal component analysis (PCA) perform dimensionality reduction?",
+    "What are common metrics used to evaluate classification models?"
+  ],
+  "small_talk": [
+    "Hi, how's your day going?",
+    "Good evening! What's new with you?",
+    "Hey there! Can you help me with something?",
+    "Hello! Hope you're having a great day!",
+    "Hi! Do you have any fun facts to share?"
+  ],
+  "hybrid": [
+    "Can you explain the difference between decision trees and random forests? Also, do you think pineapple belongs on pizza?",
+    "How does gradient descent work in neural networks? By the way, what's the weather like today?",
+    "What are the advantages of using LSTM over simple RNNs? Also, I love cats, do you?",
+    "Can you describe the process of feature engineering in machine learning? And please tell me a joke.",
+    "Explain the concept of overfitting in models. Also, do you believe in aliens?",
+    "How does regularization help in preventing overfitting? By the way, can you recommend a good movie?",
+    "What is transfer learning and when should it be used? Also, what's the meaning of life?",
+    "Describe the difference between supervised and unsupervised learning. And can you sing me a song?"
+  ],
+  "multi_turn": [
+    [
+      "What is a decision tree in machine learning?",
+      "Can it handle both classification and regression tasks?",
+      "And how does it decide where to split?"
+    ],
+    [
+      "Your answers are terrible.",
+      "Anyway, what is a neural network?",
+      "Does it mimic the human brain?"
+    ],
+    [
+      "I don't care about your explanations.",
+      "But tell me, what is gradient descent?",
+      "And how does it optimize the model?"
+    ],
+    [
+      "Is Random Forest better than a single decision tree?",
+      "And what makes it more accurate?",
+      "Can you give an example of when to use it?"
+    ],
+    [
+      "Tell me what a support vector machine is.",
+      "Now, how does it find the optimal hyperplane?",
+      "And what is the role of the kernel trick in SVMs?"
+    ],
+    [
+      "What do you know about clustering algorithms?",
+      "Specifically, how does K-means work?",
+      "Could you also explain its limitations?"
+    ],
+    [
+      "I don't want to hear any more fluff.",
+      "Just tell me, what is overfitting?",
+      "And how can I prevent it in my models?"
+    ]
+  ]
+}
