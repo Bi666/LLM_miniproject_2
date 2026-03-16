@@ -10,8 +10,8 @@ from pinecone import Pinecone
 
 INDEX_NAME = "machine-learning-textbook"
 NAMESPACE = "ns2500"
-OPENAI_KEY = os.environ.get("OPENAI_API_KEY", "")
-PINECONE_KEY = os.environ.get("PINECONE_API_KEY", "")
+OPENAI_KEY = os.environ.get("OPENAI_API_KEY")
+PINECONE_KEY = os.environ.get("PINECONE_API_KEY")
 
 
 class Obnoxious_Agent:
