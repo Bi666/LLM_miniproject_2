@@ -1,0 +1,8 @@
+[server]
+# 允许从任意来源访问（Cloud 部署时使用）
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+# 是否自动在浏览器打开（Cloud 上无效，仅本地）
+gatherUsageStats = false
